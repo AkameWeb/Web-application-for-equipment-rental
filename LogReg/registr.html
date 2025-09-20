@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Окно регистрации</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Регистрация в GrouBar</h2>
+        <form id="registrationForm" action="register.php" method="POST">
+            <div class="from-group">
+                <label for="username">Имя пользователя </label>
+            </div>
+            <div class="form-group">
+                
+                <input type="text" id="username" name="username" placeholder="Введите имя пользователя" required>
+            </div>
+            <div class="from-group">
+                <label for="email">Email </label>
+            </div>
+            <div class="form-group">
+                
+                <input type="email" id="email" name="email" placeholder="Введите email" required>
+            </div>
+            <div class="from-group">
+                <label for="password">Пароль </label>
+            </div>
+            <div class="form-group">
+                
+                <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+            </div>
+            <div class="from-group">
+                <label for="confirmPassword">Повторите пароль </label>
+            </div>
+            <div class="form-group">
+                
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Повторите пароль" required>
+            </div>
+            <button type="submit">Регистрация</button>
+        </form>
+        <p>у вас уже есть аккаунт? <a href="UserAv.html">Авторизация</a>.</p>
+    </div>
+</body>
+</html>

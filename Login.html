@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="style/login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Авторизация</h2>
+        <form id="loginForm" action="login.php" method="POST">
+            <div class="form-group">
+                <label for="username">Имя пользователя</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">Авторизоваться</button>
+        </form>
+        <p>У вас нет аккаунта? <a href="LogReg/registr.html">Register here</a>.</p>
+    </div>
+</body>
+</html>
